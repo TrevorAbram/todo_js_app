@@ -1,0 +1,23 @@
+{
+  "name": "basictodoapp",
+  "version": "1.0.0",
+  "description": "Basic todo app built in js with tailwind css",
+  "main": "app.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevorAbram/todo_js_app.git"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "TrevCodesStuff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrevorAbram/todo_js_app/issues"
+  },
+  "homepage": "https://github.com/TrevorAbram/todo_js_app#readme"
+}
