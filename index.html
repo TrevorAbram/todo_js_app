@@ -4,19 +4,26 @@
     <meta charset="utf-8">
     <title>Basic Todo App by TrevCodesStuff</title>
     <link rel="stylesheet" href="app.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
   </head>
   <body>
-    <div class="container">
-      <h2>Add A Task</h2>
-      <h4 id='date'></h4>
+    <div class="container bg-gray-100 rounded p-6 border m-6 ">
+      <h2 class="text-3xl font-bold">Welcome to your todo list!</h2>
+      <div class=" px-4 py-2 rounded mb-4">
+        <h4 class="text-sm font-semibold">Date: <span class="text-sm font-normal text-gray-600 " id='date'></h4></span>
+      </div>
 
       <!-- Input for where you would add tasks -->
-      <input id="input" placeholder="Add a todo!">
+      <input class="px-4 py-2 rounded border-none mb-6"id="input" placeholder="Add a todo!">
 
       <!-- List of tasks from input above -->
-      <h3>Your tasks</h3>
-      <p>Get to working</p>
-      <ul id="tasks"></ul>
+      <h3 class="text-gray-800">Your tasks:</h3>
+      <div class="px-4 py-2 bg-gray-200 shadow-lg">
+        <ul id="tasks">
+
+        </ul>
+      </div>
     </div>
   </body>
   <script src="app.js" charset="utf-8"></script>
